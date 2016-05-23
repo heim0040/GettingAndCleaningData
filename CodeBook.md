@@ -5,7 +5,7 @@ Activity:  6 types of activities - “walking”, “walking_upstairs”, “wal
 Subject:  unique id (1-30) of the individual tested in the Smartphone experiments
 
 
-The remaining 79 fields in the data table represent the average(mean) of the signal pattern measurement variables (from the smartphones dataset) for each activity and each subject.
+The remaining 79 fields in the data table represent the average(mean) of the signal pattern measurement variables (from the smartphones dataset) for each activity and each subject. The original signal pattern measurement variables represented the means(mean and meanFreq) and standard deviations(std) from signals measured on 3 dimensions (X, Y, Z).
 
 The names of the fields are as follows:
 
