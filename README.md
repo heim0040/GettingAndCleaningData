@@ -13,6 +13,6 @@ The script performs the following:
 
 The tidy data set is titled "ActivityData" and has been grouped by "Activity" and then "Subject".
 
-Each of the 6 Activities include observations for each of the 30 subjects tested. The observation data consists of the mean of the means and standard deviations for the signal pattern measurements (78 total) from the smartphones dataset.
+Each of the 6 Activities include observations for each of the 30 subjects tested. The observation data consists of the mean of the means and standard deviations for the signal pattern measurements (79 total) from the smartphones dataset.
 
 
