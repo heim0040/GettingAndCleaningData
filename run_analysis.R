@@ -33,9 +33,14 @@ merged$Activity <- activities$V2[match(merged$ActivityNumber,activities$V1)]
 # reorder columns
 col_idx <- grep("Activity", names(merged))
 merged <- merged[,c(col_idx, (1:ncol(merged))[-col_idx])]
+
+# remove Activity Number columns
 merged$ActivityNumber <- NULL
+
+# add descriptive label "Average.of." to original column names
 colnames(merged)[3:81] <- paste("Average.of.", colnames(merged)[3:81], sep="")
 
+# group data by Activity and subject, providing the average of each variable for the activity and subject
 library(dplyr)
 ActivityData <-
         merged %>%
