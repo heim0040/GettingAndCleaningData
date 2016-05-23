@@ -1,9 +1,3 @@
-# download data
-library(downloader)
-fileUrl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
-download(fileUrl, dest="dataset.zip", mode="wb")
-unzip("dataset.zip", exdir = "./")
-
 # prepare test data
 testdat <- read.table("UCI HAR Dataset/test/X_test.txt", header=FALSE)
 testlabels <- read.table("UCI HAR Dataset/test/Y_test.txt", header=FALSE)
